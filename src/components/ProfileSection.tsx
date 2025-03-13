@@ -1,8 +1,7 @@
 import AvatarDisplay from "./AvatarDisplay";
-import { UserNameProp } from "../types/UserNameTypes";
 
-function ProfileSection({ userName, setUserName }: UserNameProp) {
-  return <AvatarDisplay userName={userName} setUserName={setUserName} />;
+function ProfileSection() {
+  return <AvatarDisplay />;
 }
 
 export default ProfileSection;
